@@ -1,0 +1,45 @@
+{
+    "projects": [
+        {
+            "isJob": true,
+            "title": "Firmware Engineer II",
+            "company": "AMD",
+            "date": "May 2021 - Present",
+            "description": "",
+            "points": ["Developed tests for display standards, Displayport 2.0 and HDMI 2.1",
+                       "Hosted weekly meeting and knowledge exchange sessions",
+                       "Tested AMD GPU and APU products",
+                       "Work done in C++, Python, Git",
+                       "Agile Software Development"],
+            "links": {}
+        },
+        {
+            "isJob": true,
+            "title": "Software Engineer Intern",
+            "company": "AMD",
+            "date": "May 2019 - August 2020",
+            "description": "",
+            "points": ["Maintained weekly Regression and Profiling",
+                       "Developed Android Application to test 9 multimedia in parrellel",
+                       "Worked on Video Encoding firmware for next gen consoles",
+                       "Work done in C++, Python, Perforce, Java, Kotlin"],
+            "links": {}
+        },
+        {
+            "isJob": false,
+            "title": "Stress Characterization Apparatus",
+            "company": "",
+            "date": "April 2021",
+            "description": "Capstone project in partnership with MesoMat.",
+            "points": ["Developed in Python",
+                       "Creating Profiling for project",
+                       "Saved data to companies SQL database"],
+            "links": 
+                {
+                    "linkType":"YouTube",
+                    "url":"https://www.youtube.com/embed/o3wQCIq5QQM"
+                }
+            
+        }
+    ]
+}

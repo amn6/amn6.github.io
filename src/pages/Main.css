@@ -1,0 +1,189 @@
+.main {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(236, 236, 236);
+}
+
+.page {
+    width: 100%;
+    z-index: 1;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing {
+    min-height: 100vh;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(131deg, rgba(255,255,255,1) 0%, rgba(180,186,186,1) 69%, rgba(191,243,252,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing span {
+    cursor: pointer;
+}
+
+.landing span:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #555;
+}
+
+.particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+}
+
+.landing img {
+    width: 25vw;
+    max-width: 350px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.toTop img {
+    max-width: 2em;
+    height: auto;
+}
+
+nav span + span {
+    margin-left: 10%;
+}
+
+nav span {
+    cursor: pointer;
+}
+
+nav span:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #555;
+}
+
+.nav {
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    z-index: 10;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 5px 5px 5px rgb(24, 24, 24), 2px 2px 2px rgb(97, 97, 97) inset;
+}
+
+.content {
+    border-radius: 25px;
+    display: grid;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(58, 58, 58);
+    box-shadow: 5px 5px 5px rgb(24, 24, 24), 2px 2px 2px rgb(97, 97, 97) inset;
+}
+
+.experience {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contact {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.contact .subcontent {
+    align-items: left;
+}
+
+.exp_list {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subcontent {
+    border-radius: 15px 50px;
+    width: 35vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    background: rgb(46,46,46);
+    background: linear-gradient(120deg, rgba(46,46,46,1) 0%, rgba(103,103,103,1) 85%, rgba(84,137,145,1) 100%);
+    box-shadow: 5px 5px 5px rgb(64, 80, 85) inset;
+}
+
+.subcontent a {
+  color: white;
+}
+
+.experience .subcontent {
+    width: 25vw;
+}
+
+@media screen and (max-width: 960px) {
+    .content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+    .subcontent, .experience .subcontent {
+        width: 95vw;
+    }
+}
+
+.yoe {
+    font-size: calc(6px + 2vmin);
+    align-items: bottom;
+}
+
+.subcontent ul {
+    text-align: left;
+}
+
+.toTop {
+    position: fixed;
+    cursor: pointer;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 10;
+}
+
+
+.vid-container {
+    position: relative;
+    overflow: hidden;
+    /* padding-left: 2%; */
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.point {
+    font-size:  calc(6px + 2vmin);
+}
+
+.cLink {
+    cursor: pointer;
+}
+
+.cLink:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #555;
+}
