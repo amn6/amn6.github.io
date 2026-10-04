@@ -12,8 +12,8 @@ class Main extends React.Component {
 
   hideButton = () => {
     const { isBelowNav } = this.state
-    var rect = document.getElementById('nav').getBoundingClientRect();
-    rect.y < 0 ?
+    const shouldShow = window.scrollY > window.innerHeight * 0.6;
+    shouldShow ?
     !isBelowNav && this.setState({ isBelowNav: true })
     :
     isBelowNav && this.setState({ isBelowNav: false });

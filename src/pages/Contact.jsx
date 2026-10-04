@@ -1,24 +1,28 @@
 const Contact = () => {
-    return (
-      <section className="page" id="contact">
-        <header className="App-header">
-          <h3>
-            Contact
-          </h3>
-        </header>
-        <div className="content contact">
-          <div className="subcontent">
-            <span>Email: <span className="cLink">nels123159@gmail.com</span></span>
-          </div>
-          <div className="subcontent">
-            <span>LinkedIn: <a href="https://www.linkedin.com/in/adam-nelson-b32324153/"><span className="cLink">Here</span></a></span>
-          </div>
-          <div className="subcontent">
-            <span>Resume: <a href="AdamNelson_Resume2023.pdf" download="AdamNelson_Resume2023.pdf"><span className="cLink">Download</span></a></span>
-          </div>
+  return (
+    <section className="page section-band contact-section" id="contact">
+      <div className="section-shell contact-shell">
+        <div className="section-heading">
+          <p className="eyebrow">Contact</p>
+          <h2>Let's talk about engineering systems, validation, and AI enablement.</h2>
         </div>
-      </section>
-    );
-  }
+        <div className="contact-actions">
+          <a className="contact-card" href="mailto:nels123159@gmail.com">
+            <span>Email</span>
+            <strong>nels123159@gmail.com</strong>
+          </a>
+          <a className="contact-card" href="https://www.linkedin.com/in/adam-mark-nelson/" target="_blank" rel="noreferrer">
+            <span>LinkedIn</span>
+            <strong>adam-mark-nelson</strong>
+          </a>
+          <a className="contact-card" href="AdamNelson-Resume.pdf" download="AdamNelson-Resume.pdf">
+            <span>Resume</span>
+            <strong>Download PDF</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
   
-  export default Contact;
+export default Contact;
