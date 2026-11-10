@@ -15,7 +15,7 @@ const Contact = () => {
             <span>LinkedIn</span>
             <strong>adam-mark-nelson</strong>
           </a>
-          <a className="contact-card" href="AdamNelson-Resume.pdf" download="AdamNelson-Resume.pdf">
+          <a className="contact-card" href="Adam-Nelson-Resume-2026.pdf" download="Adam-Nelson-Resume-2026.pdf">
             <span>Resume</span>
             <strong>Download PDF</strong>
           </a>

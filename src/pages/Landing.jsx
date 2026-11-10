@@ -30,7 +30,7 @@ const Landing = () => {
           </p>
           <div className="hero-actions">
             <Link className="button primary" smooth spy to="experience">View Work</Link>
-            <a className="button secondary" href="AdamNelson-Resume.pdf" download="AdamNelson-Resume.pdf">Download Resume</a>
+            <a className="button secondary" href="Adam-Nelson-Resume-2026.pdf" download="Adam-Nelson-Resume-2026.pdf">Download Resume</a>
           </div>
         </div>
         <div className="hero-profile" aria-label="Profile summary">
